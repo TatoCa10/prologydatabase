@@ -1,0 +1,261 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Helvetica Neue; 
+}
+
+/*titulo*/
+
+div#titulo{
+    width:100%;
+    margin-top:100px;
+}
+
+p#header{
+    text-align: center;
+    font-size: 2.5em;
+    color:#9a9a9a;
+}
+
+p#subheader{
+    text-align: center;
+    color:#cecece;
+    margin-top:20px;
+    font-size: 1.3em;
+}
+
+header{
+    margin:100px auto;
+    width:1200px;
+    height:230px;
+    background-color: red;
+}
+
+div#uno{
+    background-color: rgb(208,101,3);
+}
+
+div#dos{
+    background-color: rgb(233,147,26);
+}
+
+div#tres{
+    background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+    background-color: rgb(22,107,162);
+}
+
+div#cinco{
+    background-color: rgb(27,54,71);
+}
+
+div#seis{
+    background-color: rgb(21,40,54);
+}
+
+div#siete{
+    background-color: rgb(208,101,3);
+}
+
+div#ocho{
+    background-color: rgb(233,147,26);
+}
+
+div#nueve{
+    background-color: rgb(22,145,190);
+}
+
+div#dies{
+    background-color: rgb(22,107,162);
+}
+
+div#once{
+    background-color: rgb(27,54,71);
+}
+
+div#doce{
+    background-color: rgb(21,40,54);
+}
+
+
+img.icon{
+    display: block;
+    margin:50px auto;
+    background-color: rgba(255,255,255,.15);
+    width:40px;
+    padding:20px;
+    -webkit-border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+    -webkit-transition:box-shadow .3s;
+}
+
+p.texto{
+    font-size: 1.2em;
+    color:white;
+    text-align: center;
+    padding-top:10px;
+    opacity: .6;
+    -webkit-transition: padding-top .4s;
+}
+
+a:link{   
+    text-decoration:none;   
+}   
+
+div.contenedor1{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+}
+
+div.contenedor1:hover{
+    height:250px;
+}
+
+div.contenedor1:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+
+div.contenedor1:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.toogle1 {
+    margin:15px auto;
+    padding: 20px;
+    display: none;
+}
+
+div.contenedor2{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+}
+
+div.contenedor2:hover{
+    height:250px;
+}
+
+div.contenedor2:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+
+div.contenedor2:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.toogle2 {
+    margin:15px auto;
+    padding: 20px;
+    display: none;
+}
+
+div.contenedor3{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+}
+
+div.contenedor3:hover{
+    height:250px;
+}
+
+div.contenedor3:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+
+div.contenedor3:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.toogle3 {
+    margin:15px auto;
+    padding: 20px;
+    display: none;
+}
+
+div.contenedor4{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+}
+
+div.contenedor4:hover{
+    height:250px;
+}
+
+div.contenedor4:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+
+div.contenedor4:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.toogle4 {
+    margin:15px auto;
+    padding: 20px;
+    display: none;
+}
+
+div.contenedor5{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+}
+
+div.contenedor5:hover{
+    height:250px;
+}
+
+div.contenedor5:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+
+div.contenedor5:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.toogle5 {
+    margin:15px auto;
+    padding: 20px;
+    display: none;
+}
+
+div.contenedor6{
+    width: 200px;
+    height: 230px;
+    float:left;
+    -webkit-transition: height .4s;
+}
+
+div.contenedor6:hover{
+    height:250px;
+}
+
+div.contenedor6:hover p.texto{
+    padding-top: 30px;
+    opacity: 1;
+}
+
+div.contenedor6:hover img.icon{
+    -webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div.toogle6 {
+    margin:15px auto;
+    padding: 20px;
+    display: none;
+}

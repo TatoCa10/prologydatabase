@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Generacion de Listados</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .button {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                cursor: pointer;
+                width: 400px;
+            }
+
+            .button1 {
+                background-color: transparent; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+            .button2 {
+                background-color: transparent;
+                color: black; 
+                border: 2px solid #008CBA;
+            }
+
+            .button2:hover {
+                background-color: #008CBA;
+                color: white;
+            }
+
+            .button3 {
+                background-color: transparent; 
+                color: black; 
+                border: 2px solid #f44336;
+            }
+
+            .button3:hover {
+                background-color: #f44336;
+                color: white;
+            }
+
+            .button4 {
+                background-color: transparent;
+                color: black;
+                border: 2px solid #e7e7e7;
+            }
+
+            .button4:hover {background-color: #e7e7e7;}
+
+            .button5 {
+                background-color: white;
+                color: black;
+                border: 2px solid #555555;
+            }
+
+            .button5:hover {
+                background-color: #555555;
+                color: white;
+            }
+        </style>
+    </head>
+    <body background="Pictures/Fondos/fondo4.jpg">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <form name="ejemplo1" action="Servlet_Menu?opcion=4" method="post">
+            <table width="200" border="0">
+                <tr>
+                    <td style="text-align:center;"><input class="button button1" align='left' type='submit' name='ListarUser' value="Generar Listado Usuarios"></td>    
+            </table>    
+        </form>
+
+        <form name="ejemplo2" action="Servlet_Menu?opcion=5" method="post">
+            <table width="200" border="0">
+                <tr>
+                    <td style="text-align:center;"><input class="button button2" align='center' type='submit' name='ListarLotes' value="Generar Listado Lotes"></td>
+                </tr>
+            </table>
+        </form>
+
+        <form name="ejemplo3" action="Servlet_Menu?opcion=6" method="post">
+            <table width="200" border="0">
+                <tr>
+                    <td style="text-align:center;"><input class="button button3" align='right' type='submit' name='ListarProductos' value="Generar Listado Productos"></td>
+                </tr>
+            </table>
+        </form>
+        <!--<input class="button button4" type="button" value="Listar Lotes Por Usuario" name="B4" OnClick="location.href = 'ListadoLotesPorUsuario.html'">-->
+    </center>
+    <center>
+        <br><br><br><br><br><br>
+        <h4 style="color: #ffffff"><font face="sans-serif"> <em>Regresa al menu principal haciendo </em><a target=_self href="indexMainMenu.html"> <em>Click Aqui</em></a></font></h4> 
+    </center> 
+</body>
+  
+
+</html>

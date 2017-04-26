@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Main Menu</title>
+        <link rel="stylesheet" href="index_style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".contenedor1").click(function () {
+                    $(".toogle1").slideDown("slow");
+                });
+                $(".contenedor1").mouseleave(function () {
+                    $(".toogle1").slideUp("slow");
+                });
+                $(".contenedor2").click(function () {
+                    $(".toogle2").slideDown("slow");
+                });
+                $(".contenedor2").mouseleave(function () {
+                    $(".toogle2").slideUp("slow");
+                });
+                $(".contenedor3").click(function () {
+                    $(".toogle3").slideDown("slow");
+                });
+                $(".contenedor3").mouseleave(function () {
+                    $(".toogle3").slideUp("slow");
+                });
+                $(".contenedor4").click(function () {
+                    $(".toogle4").slideDown("slow");
+                });
+                $(".contenedor4").mouseleave(function () {
+                    $(".toogle4").slideUp("slow");
+                });
+                $(".contenedor5").click(function () {
+                    $(".toogle5").slideDown("slow");
+                });
+                $(".contenedor5").mouseleave(function () {
+                    $(".toogle5").slideUp("slow");
+                });
+            });
+        </script>
+    </head>
+    <body background="Pictures/Fondos/fondo2.jpg">
+
+        <div id="titulo">
+            <p id="header"><em>Sistema De Informacion Integrada</em></p>
+            <p id="subheader">David Acevedo - Carlos Correa</p>
+            <p id="subheader">Universidad Sergio Arboleda - Bases De Datos</p>
+        </div>
+
+        <header>
+
+
+
+            <div class="contenedor1" id="uno">
+                <img class="icon" src="Pictures/actualizar.png">
+                <p class="texto">Actualizar Info</p>
+
+                <div class="toogle1" id="siete"> 
+                    <a href="ActUser.html"><p class="texto"><em>Actualizar Usuario</em></p><br></a>
+                    <a href="ActLote.html"><p class="texto"><em>Actualizar Lote</em></p><br></a>
+                    <a href="ActProducto.html"><p class="texto"><em>Actualizar Producto</em></p></a> 
+                </div>
+            </div>
+
+
+
+
+            <div class="contenedor2" id="dos">
+                <img class="icon" src="Pictures/ingresar.png">
+                <p class="texto">Registrar</p>
+
+                <div class="toogle2" id="ocho"> 
+                    <a href="CrearUser.html"><p class="texto"><em>Registrar Usuario</em></p><br></a>
+                    <a href="CrearLote.html"><p class="texto"><em>Registrar Lote</em></p><br></a>
+                    <a href="CrearProducto.html"><p class="texto"><em>Registrar Productos</em></p></a> 
+                    <a href="ejemplo.html"><p class="texto"><em>Ingresar Items</em></p></a> 
+                </div>
+            </div>
+
+            <a href="Listar.html">
+            <div class="contenedor3" id="tres">
+                <img class="icon" src="Pictures/listar.png">
+                <p class="texto">Listar</p>
+            </div>
+            </a>
+
+
+
+            <a href="Generar.html">
+            <div class="contenedor4" id="cuatro">
+                <img class="icon" src="Pictures/crear.png">
+                <p class="texto">Generar Reporte</p>
+            </div>
+            </a>
+
+            <div class="contenedor5" id="cinco">
+                <img class="icon" src="Pictures/borrar.png">
+                <p class="texto">Borrar/Sacar de Bodega</p>
+                <div class="toogle5" id="once"> 
+                    <a href="EliminarUser.html"><p class="texto"><em>Eliminar Usuario</em></p><br></a>
+                    <a href="SacarProducto.html"><p class="texto"><em>Sacar Producto De Bodega</em></p></a> 
+                </div>
+            </div>
+
+            <a href="LogOut.html">
+            <div class="contenedor6" id="seis">
+                <img class="icon" src="Pictures/out.png">
+                <p class="texto">LogOut</p>
+            </div>
+            </a>
+        </header>
+
+
+
+    </body>
+</html>

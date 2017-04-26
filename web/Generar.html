@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Generacion de Listados</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .button {
+                background-color: #4CAF50; /* Green */
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                -webkit-transition-duration: 0.4s; /* Safari */
+                transition-duration: 0.4s;
+                cursor: pointer;
+                width: 400px;
+            }
+
+            .button1 {
+                background-color: transparent; 
+                color: black; 
+                border: 2px solid #4CAF50;
+            }
+
+            .button1:hover {
+                background-color: #f44336;
+                color: white;
+            }
+
+            .button2 {
+                background-color: transparent;
+                color: black; 
+                border: 2px solid #008CBA;
+            }
+
+            .button2:hover {
+                background-color: #f44336;
+                color: white;
+            }
+
+            .button3 {
+                background-color: transparent; 
+                color: black; 
+                border: 2px solid #f44336;
+            }
+
+            .button3:hover {
+                background-color: #f44336;
+                color: white;
+            }
+
+            .button4 {
+                background-color: transparent;
+                color: black;
+                border: 2px solid #e7e7e7;
+            }
+
+            .button4:hover {background-color: #e7e7e7;}
+
+            .button5 {
+                background-color: white;
+                color: black;
+                border: 2px solid #555555;
+            }
+
+            .button5:hover {
+                background-color: #555555;
+                color: white;
+            }
+            select#soflow, select#soflow-color {
+                -webkit-appearance: button;
+                -webkit-border-radius: 2px;
+                -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+                -webkit-padding-end: 20px;
+                -webkit-padding-start: 2px;
+                -webkit-user-select: none;
+                background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+                background-position: 97% center;
+                background-repeat: no-repeat;
+                border: 1px solid #AAA;
+                color: #555;
+                font-size: inherit;
+                margin: 20px;
+                overflow: hidden;
+                padding: 5px 10px;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                width: 300px;
+            }
+
+            select#soflow-color {
+                color: #fff;
+                background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+                background-color: #779126;
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                padding-left: 15px;
+            }
+        </style>
+    </head>
+    <body background="Pictures/Fondos/fondo3.png">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center>
+        <select id="soflow">
+            <option>Seleccione Una Opcion</option>
+            <option>Listar Usuarios</option>
+            <option>Listar Lotes</option>
+            <option>Listar Productos</option>
+        </select>
+
+        <form name="generar1" action="Servlet_Menu?opcion=16" method="post">
+            <table width="200" border="0">
+                <tr>
+                    <td style="text-align:center;"><input class="button button1" align='left' type='submit' name='GenerarListarUser' value="Generar Listado Usuarios a PDF"></td>    
+            </table>    
+        </form>
+
+        <form name="generar2" action="Servlet_Menu?opcion=17" method="post">
+            <table width="200" border="0">
+                <tr>
+                    <td style="text-align:center;"><input class="button button2" align='center' type='submit' name='GenerarListarLotes' value="Generar Listado Lotes a PDF"></td>
+                </tr>
+            </table>
+        </form>
+
+        <form name="generar3" action="Servlet_Menu?opcion=18" method="post">
+            <table width="200" border="0">
+                <tr>
+                    <td style="text-align:center;"><input class="button button3" align='right' type='submit' name='GenerarListarProductos' value="Generar Listado Productos a PDF"></td>
+                </tr>
+            </table>
+        </form>
+        <!--<input class="button button4" type="button" value="Listar Lotes Por Usuario" name="B4" OnClick="location.href = 'ListadoLotesPorUsuario.html'">-->
+    </center>
+    <center>
+        <br><br><br><br><br><br>
+        <h4 style="color: #ffffff"><font face="sans-serif"> <em>Regresa al menu principal haciendo </em><a target=_self href="indexMainMenu.html"> <em>Click Aqui</em></a></font></h4> 
+
+    </center> 
+</body>
+
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Listado De Lotes Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='estilos.css'>
+    </head>
+    <body background="Pictures/Fondos/fondo5.jpg">
+        <form class='contacto'>
+            <div><label>Nombre Del Archivo:</label><input type="text" name="NombrePDF"></div>
+        </form>
+        <form class='contacto'>
+            <div><label>Generar Archivo Para:</label></div>
+        </form>
+        <form class='contacto' name="FormularioTabla" action="Servlet_Menu?opcion=16" method="post">
+            <input type="submit" name= "Usuarios" value="Usuarios">
+        </form>
+        <form class='contacto' name="FormularioTabla" action="Servlet_Menu?opcion=17" method="post">
+            <div><input type="submit" name= "Lotes" value="Lotes"></div>
+        </form>
+        <form class='contacto' name="FormularioTabla" action="Servlet_Menu?opcion=18" method="post">
+            <div><input type="submit" name= "Productos" value="Productos"></div>
+        </form>
+    <center>
+        <br><br><br><br><br><br><br><br><br><br><br>
+        <h3 style="color: #ffffff"><font face="sans-serif"> Regresa al menu principal haciendo <a target=_self href="indexMainMenu.html"> Click Aqui</a></font></h3> 
+    </center>  
+</body>
+</html>
